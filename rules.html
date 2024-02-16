@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE</title>
+    <link rel="icon" type="image/x-icon" href="./assets/Icon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header/header.css" />
+    <link rel="stylesheet" href="./styles/header/logo.css" />
+    <link rel="stylesheet" href="./styles/header/nav.css" />
+    <link rel="stylesheet" href="./styles/main/main.css" />
+    <link rel="stylesheet" href="./styles/main/container.css" />
+        <link rel="stylesheet" href="./styles/main/content.css" />
+    <link rel="stylesheet" href="./styles/main/rules.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <nav>
+        <ul class="menu">
+          <li class="menu_item">
+            <a href="./index.html" class="menu_item-link">GAME</a>
+          </li>
+          <li class="menu_item">
+            <a href="#rules" class="menu_item-link active">RULES</a>
+          </li>
+          <li class="menu_item">
+            <a href="#" class="menu_item-link">CUSTOM</a>
+          </li>
+          <li class="menu_item">
+            <a href="#" class="menu_item-link">THEME</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="content">
+          <h1 class="content_title-tic">TIC</h1>
+          <h1 class="content_title-tac">TAC</h1>
+          <h1 class="content_title-toe">TOE</h1>
+        </div>
+        <div id="rules" class="rules">
+            <div class="rules-slider">
+                <p class="rule">The board is a three-row-by-three-column matrix.</p>
+                <p class="rule">
+                    Two players each choose a tag, usually a circle (O) and an X (X).
+                </p>
+                <p class="rule">
+                    Players take turns, one mark at a time, in an empty space.
+                </p>
+                <p class="rule">
+                    The object is to get three circles or three crosses in a row, either
+                    horizontally, vertically or diagonally, and at the same time, where
+                    possible, prevent the opponent from winning on the next turn.
+                </p>
+                <p class="rule">
+                    If both players always play at their best, the game will always end
+                    in a tie.
+                </p>
+            </div>
+            <a target="_blank" href="https://www.bigmae.com/regras-jogo-da-velha/" class="reference"
+            >Reference</a>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

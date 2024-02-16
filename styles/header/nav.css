@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.menu_item {
+  background: #000;
+  border-radius: 100px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.menu_item:hover {
+  background-color: var(--primary);
+}
+
+.menu_item-link {
+  color: var(--second);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu_item-link:hover {
+  text-decoration: underline;
+}
+
+.menu_item-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
